@@ -1,0 +1,99 @@
+h1, h2, div{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	border: 10px solid white;
+	background-color: white;
+	margin: 0 10%;
+	padding: 5px;
+	background-image: url(images/bgimg.jpeg);	
+	z-index: 1;
+}
+
+.all {
+	background-color: white;
+	z-index: 2;
+	padding: 5px;
+}
+
+.intro {
+	background-color: #A8F0F0;
+	text-align: right;
+}
+
+.spatulas, .cookie {
+	border: 4px solid #C2E9E9;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.intro h2 {
+	font-size: 14pt;
+}
+
+.date {
+	border-bottom: 2px dashed blue;
+}
+
+.content {
+	clear: both;
+	overflow: hidden;
+}
+
+.left-side{
+	border: 4px #3B8588 solid;
+	float: left;
+	margin: 10px 0;
+	width: 15%;
+	padding: 5px;
+	background-color: #39BBC0;
+}
+.right-side{
+	float:right;
+	width:83%;
+}
+
+}
+.spatulas, .cookie {
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin: 10px;
+}
+
+.img{
+	float:right;
+}
+
+.img-text {
+    clear: right;
+    overflow: hidden;
+}
+
+h1:hover {
+	background-color: yellow;
+	transition: 0.7s;
+}
+
+h2:hover {
+	background-color: yellow;
+	transition: 0.7s;
+}	
+
+li:hover {
+	background-color: yellow;
+	transition: 0.7s;
+}
+
+span:hover {
+	background-color: yellow;
+	transition: 0.7s;
+}
+
+p:hover {
+	background-color: yellow;
+	transition: 0.7s;
+}
